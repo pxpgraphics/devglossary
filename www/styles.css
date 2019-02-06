@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html, body {
+    height:100%;
+}
+body {
+    background: black;
+    color: white;
+    font-family: monospace;
+    font-size:0;
+}
+div#container {
+    height:calc(100% - 200px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding:5px;
+    font-size:14px;
+}
+div#bottom{
+    height:200px;
+    line-height:30px;
+    font-size:14px;
+}
+span#token{
+  color: red;
+}
+span#path{
+  color: cyan;
+}
+span#echo{
+  font-weight: lighter;
+  color: lime;
+}
+span#command{
+  color: white;
+}
+span#cursor{
+  color: yellow;
+}
+
+.blink {
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  -moz-animation-name: blinker;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+
+   animation-name: blinker;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes blinker {
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
