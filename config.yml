@@ -1,6 +1,6 @@
 title: /dev/glossary
-host: 'https://devglossary.herokuapp.com'
-port: 3000
+host: 'https://0.0.0.0'
+port: $(PORT)
 paths:
   repo: ./repo
   data: ./data
