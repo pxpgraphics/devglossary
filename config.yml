@@ -1,5 +1,5 @@
 title: /dev/glossary
-host: 'http://localhost'
+host: 'https://devglossary.herokuapp.com'
 port: 3000
 paths:
   repo: ./repo
@@ -66,7 +66,7 @@ auth:
     emailClaim: OPENID_CONNECT_EMAIL_CLAIM_PATH
     usernameClaim: OPENID_CONNECT_USERNAME_CLAIM_PATH
 sessionSecret: d96e4a9d9021b3106e55915c8783c6b59c3870c9eb9361b3b654f245998db3ac
-db: 'mongodb://localhost:27017/wiki'
+db: 'mongodb://admin@devglossary.com:V?mPA8rJsftBkKn@ds221405.mlab.com:21405/heroku_8f5dssxd'
 git:
   url: 'https://github.com/pxpgraphics/devglossary'
   branch: master
